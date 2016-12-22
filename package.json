@@ -1,0 +1,16 @@
+{
+  "name": "basic-js-test",
+  "version": "1.0.0",
+  "description": "Template for basic tests in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -t 90000 -R spec *-spec.js"
+  },
+  "author": "Isaac Murchie",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "wd": "^1.1.1"
+  }
+}
